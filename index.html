@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="home-page">
+      <div id="nav-holder"></div>
+      <div class="header-section">
+        <div class="header-content">
+          <div class="title-subtitle">
+            <div class="text-wrapper-2">Intro | About Me</div>
+            <div class="text-wrapper-3">Hi, I’m Catherine</div>
+            <p class="text-wrapper-4">I am an artist and a graphic designer. Check out some of my projects below!</p>
+          </div>
+          <a href="workpage.html" rel="noopener noreferrer"
+            ><div class="button"><div class="text-wrapper-5">Work</div></div></a
+          >
+        </div>
+        <img class="headerimage" src="img/headerimage-1-1.png" />
+      </div>
+      <div class="div-2">
+        <div class="cards-section">
+          <div class="skills-card">
+            <img class="skills-card-icon" src="img/skills-card-icon-7.png" />
+            <div class="div-3">
+              <div class="title">Graphic Design</div>
+              <p class="this-is-a-template">Proficient in programs such as Adobe Illustrator and PhotoShop</p>
+            </div>
+          </div>
+          <div class="skills-card">
+            <img class="img" src="img/skills-card-icon-6.png" />
+            <div class="div-3">
+              <div class="title">UI/UX Design</div>
+              <p class="this-is-a-template">Proficient in developing mock prototypes, wireframes in FIgma</p>
+            </div>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-icon-2" src="img/skills-card-icon.png" />
+            <div class="div-3">
+              <div class="title">Web Design</div>
+              <p class="this-is-a-template">Basic skills in HTML, CSS, and Javascript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-2">
+        <div class="text-wrapper-6">Design work</div>
+        <div class="cards-section">
+          <div class="div-4">
+            <img class="image" src="img/image-7.png" />
+            <div class="title-description">
+              <div class="text-wrapper-2">Take My Trash</div>
+              <div class="text-wrapper-4">Infographic Design</div>
+            </div>
+          </div>
+          <div class="div-4">
+            <img class="image" src="img/image-6.png" />
+            <div class="title-description">
+              <div class="text-wrapper-2">The Borrowers Redesign</div>
+              <div class="text-wrapper-4">Book Cover Design</div>
+            </div>
+          </div>
+          <div class="div-4">
+            <img class="image" src="img/image-5.png" />
+            <div class="title-description">
+              <div class="text-wrapper-2">RR Pinoy Rebrand</div>
+              <div class="text-wrapper-4">Branding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-holder"></div>
+      <!--<div class="contact-section">
+        <div class="text-wrapper-7">Lets connect!</div>
+        <div class="contact-section-2">
+          <div class="contact-info">
+            <div class="div-wrapper">
+              <p class="p">
+                Here are my social media handles where you can explore more of my work and other endeavors.
+              </p>
+            </div>
+            <div class="social-links">
+              <a href="https://discord.com/invite/eQxkYTNxSp" target="_blank" rel="noopener noreferrer"
+                ><img class="img-2" src="img/discord.png"
+              /></a>
+              <a href="https://www.facebook.com/animaapp/" target="_blank" rel="noopener noreferrer"
+                ><img class="img-2" src="img/facebook-1.png"
+              /></a>
+              <a href="https://dribbble.com/animaapp" target="_blank" rel="noopener noreferrer"
+                ><img class="img-2" src="img/dribbble-1.png"
+              /></a>
+              <a href="https://www.instagram.com/animaapp/?hl=en" target="_blank" rel="noopener noreferrer"
+                ><img class="img-2" src="img/nstagram-1.png"
+              /></a>
+              <a href="https://www.behance.net/Anima_design" target="_blank" rel="noopener noreferrer"
+                ><img class="img-2" src="img/behance.png"
+              /></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <div class="div-3"><input class="input-field" /> <input class="input-field" /></div>
+            <button class="work-wrapper"><div class="text-wrapper-5">Submit</div></button>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+$("#nav-holder").replaceWith(data);
+});
+$.get("footer.html", function(data){
+$("#footer-holder").replaceWith(data);
+});
+</script> 
